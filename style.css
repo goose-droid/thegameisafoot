@@ -101,23 +101,56 @@ article h1 {
     font-family: "postamt", serif;
     padding:10px;
 }
-article .h2link {
-    color:#B7B597;
-    background-color: #254336;
+
+#portrait {
+    float:left;
+    height:300px;
+    margin:10px;
+}
+
+#indexbuttons {
+    clear:both;
+    display:flex;
+    justify-content:space-evenly;
+    padding:10px;
+    border-radius:15px;
+    text-align: center;
+    flex-wrap:wrap;
+}
+
+.h2link {
+    
+    padding:15px;
+    border-radius: 25px;
+    width: 250px;
+    background-color: #6A8A79;
+    margin: 5px;
+}
+.h2link a{
+    color:#254336;
     font-family: "postamt", serif;
-    padding:5px;
-    padding-top:7px;
-    border-radius: 5px;
     font-size:1em;
+    display: inline-block;
+    margin:auto;
+
 }
-article .h2link:hover{
-    color:#DAD3BE;
+.h2link a:hover{
+    color:#14221b;
 }
+/*.h2link:hover{
+    background-color:#6A8A79;
+}*/
+.h2link img {
+    max-height:75px;
+}
+
+
+
 article a {
     text-decoration: none;
 }
 article p {
-    padding:5px;
+    padding:10px;
     color:black;
 }
 
@@ -184,12 +217,11 @@ article p {
 
 figure {
     float:right;
-    margin:5px;
+    margin:15px;
 }
 figcaption {
     font-size: 0.90em;
     font-style:italic;
-
 }
 
 footer {
