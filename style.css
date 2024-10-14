@@ -1,0 +1,199 @@
+@font-face {
+    font-family: "campanile";
+    src: url("campanile.ttf");
+}
+
+@font-face {
+    font-family: "veteran typewriter";
+    src: url("veteran-typewriter.regular.ttf");
+}
+
+@font-face {
+    font-family: "postamt";
+    src: url("postamt.regular.ttf");
+}
+
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+
+    background-image: url("bgtile.png");
+    background-repeat:repeat;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction:column;
+    height:100vh;
+    width: 70%;
+    max-width: 1500px;
+    min-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color:#254336;
+    text-align: center;
+    padding: 5px;
+    font-family: campanile, 'Times New Roman', serif;
+    font-size:1.5em;
+    font-weight:100;
+    
+
+}
+
+header a  {
+    color:#B7B597;
+    text-decoration: none;
+    
+}
+
+header h1:hover {
+    color:#DAD3BE;
+}
+
+main {
+    display: flex;
+    flex:1;
+}
+
+nav ul {
+
+    list-style-type: none;
+
+}
+nav {
+    padding:10px;
+    float:left;
+    background-color:#B7B597;
+    max-width:160px;
+}
+nav ul li {
+    padding: 10px;
+    padding-top:12px;
+    margin: 5px;
+    background-color: #254336;
+    border-radius: 5px;
+}
+
+nav ul li:hover {
+    color:#DAD3BE;
+}
+
+nav a {
+    text-decoration: none;
+    color:#B7B597;
+    font-family: "postamt", serif;
+    font-size:1.2em;
+}
+
+article {
+    padding: 10px;
+    background-color: #DAD3BE;
+}
+article h1 {
+    color:#254336;  
+    font-family: "postamt", serif;
+    padding:10px;
+}
+article .h2link {
+    color:#B7B597;
+    background-color: #254336;
+    font-family: "postamt", serif;
+    padding:5px;
+    padding-top:7px;
+    border-radius: 5px;
+    font-size:1em;
+}
+article .h2link:hover{
+    color:#DAD3BE;
+}
+article a {
+    text-decoration: none;
+}
+article p {
+    padding:5px;
+    color:black;
+}
+
+.indexarticle {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+#garden hr {
+    color:#254336;
+}
+#garden h2 {
+    font-family: "postamt", serif;
+    font-size:1em;
+    padding:5px;
+}
+#gardengallery img {
+    display:inline;
+}
+
+.paper {
+    clear:right;
+    background-image: url("paper.webp");
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:35px;
+    margin-bottom:25px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:15px;
+    font-family: "veteran typewriter", monospace;
+    font-weight:700;
+    box-shadow: 10px 10px 10px rgba(80, 79, 79, 0.722);
+}
+.paper ul {
+    list-style-type: none;
+    margin-left:5px;
+}
+.paper ul li {
+    color:rgba(0, 0, 0, 0.732);
+    font-size:1.3em;
+    padding: 5px;
+}
+.paper ul li:hover {
+    color:#254336;
+    /*font-size:1.4em;*/
+    text-decoration: underline;
+}
+.paper h2{
+    font-family: "postamt", serif;
+    font-size:.9em;
+    text-decoration:underline;
+    color:#254336de;
+    text-align: center;
+    margin-bottom:5px;
+}
+.paper img {
+    float:right;
+    height:100px;
+    opacity: .7;
+}
+
+figure {
+    float:right;
+    margin:5px;
+}
+figcaption {
+    font-size: 0.90em;
+    font-style:italic;
+
+}
+
+footer {
+    padding:5px;
+    background-color: #254336;
+    min-height: 25px;
+}
