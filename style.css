@@ -58,7 +58,7 @@ header h1:hover {
 }
 
 main {
-    display: flex;
+    display:flex;
     flex:1;
 }
 
@@ -95,6 +95,7 @@ nav a {
 article {
     padding: 10px;
     background-color: #DAD3BE;
+    flex:1;
 }
 article h1 {
     color:#254336;  
