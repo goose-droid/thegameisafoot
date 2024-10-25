@@ -102,6 +102,7 @@ article h1 {
     padding:10px;
 }
 
+
 #portrait {
     float:left;
     height:300px;
@@ -196,11 +197,24 @@ article p {
     font-size:1.3em;
     padding: 5px;
 }
-.paper ul li:hover {
-    color:#254336;
-    /*font-size:1.4em;*/
-    text-decoration: underline;
+
+.paper ul li a {
+    color:rgba(0, 0, 0, 0.732);
 }
+
+.paper ul li a:hover {
+    color:#254336;
+    text-decoration:underline;
+}
+
+/*.paper ul li:hover {
+    color:#254336;
+    font-size:1.4em;
+    text-decoration: underline;
+}*/
+
+
+
 .paper h2{
     font-family: "postamt", serif;
     font-size:.9em;
