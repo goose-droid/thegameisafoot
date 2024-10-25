@@ -1,0 +1,13 @@
+article {
+    text-align: center;
+}
+
+button {
+    padding: 5px;
+    margin: 15px;
+}
+
+article p {
+    max-width: 600px;
+    margin:auto;
+}
