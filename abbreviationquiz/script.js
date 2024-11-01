@@ -2,7 +2,6 @@
 //array of abbreviations
 const abbs = ["ABBE", "BAZA", "BERY", "BLAC", "BLAN", "BLUE", "BOSC", "BRUC", "CARD", "CHAS", "COPP", "CREE", "CROO", "DANC", "DEVI", "DYIN", "EMPT", "ENGR", "FINA", "FIVE", "GLOR", "GOLD", "GREE", "HOUN", "IDEN", "ILLU", "LADY", "LAST", "LION", "MAZA", "MISS", "MUSG", "NAVA", "NOBL", "NORW", "PREF", "PRIO", "REDC", "REDH", "REIG", "RESI", "RETI", "SCAN", "SECO", "SHOS", "SIGN", "SILV", "SIXN", "SOLI", "SPEC", "STOC", "STUD", "SUSS", "THOR", "3GAB", "3GAR", "3STU", "TWIS", "VALL", "VEIL", "WATS", "WIST", "YELL"];
 
-
 //establishing variables
 const form = document.querySelector("form");
 const input = document.querySelector("#input");
@@ -11,11 +10,9 @@ const done = document.querySelector("#done");
 const results = document.querySelector("#results");
 const reset = document.querySelector("#reset");
 
-
 let guessed = [];
 let missed = [];
 let count = 0;
-
 
 //used when clicking the reset button at end of game.
 function resetGame() {
@@ -65,7 +62,6 @@ function resetGame() {
 form.addEventListener("submit", e => {
 	e.preventDefault();
 });
-
 
 //detects input and reacts to whether it is
 //within the array of abbs or not
